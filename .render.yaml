@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-php-site
+    name: tt-dashboard
     env: docker
     plan: free
     dockerfilePath: Dockerfile
