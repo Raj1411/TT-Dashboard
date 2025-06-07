@@ -5,3 +5,19 @@ input { width:100%; padding:10px; margin:8px 0; box-sizing:border-box; }
 button { padding:10px 20px; cursor:pointer; }
 .error { color:red; }
 a { display:inline-block; margin-bottom:10px; }
+
+/* 👉 Add these styles for controlling iframe size */
+.report-container {
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.report-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
