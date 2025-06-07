@@ -2,8 +2,8 @@
 session_start();
 
 // ======= SIMPLE CREDENTIALS (EDIT IF NEEDED) =======
-$USERNAME = "teenteen";
-$PASSWORD = "teenteen@123#";
+$USERNAME = getenv('APP_USERNAME');
+$PASSWORD = getenv('APP_PASSWORD');
 // ===================================================
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
