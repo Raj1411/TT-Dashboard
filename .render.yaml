@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: TT-dashboard
+    name: TT-Dashboard
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
