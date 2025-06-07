@@ -18,7 +18,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     <iframe title="Power BI Dashboard" 
         width="100%" 
         height="600"
-        src="<iframe title="Dashboard" width="600" height="373.5" src="<iframe title="Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMzdmZWUxM2QtZGY4My00YjlkLWFjYjEtMzI2NjY3YjdmNmFlIiwidCI6IjU2NjU2NjEzLTBkZWEtNGU3OC1iNWVlLWRhNjI3NGZmMjZkZSJ9" 
+        src="https://app.powerbi.com/view?r=eyJrIjoiMzdmZWUxM2QtZGY4My00YjlkLWFjYjEtMzI2NjY3YjdmNmFlIiwidCI6IjU2NjU2NjEzLTBkZWEtNGU3OC1iNWVlLWRhNjI3NGZmMjZkZSJ9" 
         frameborder="0" 
         allowFullScreen="true">
         </iframe>
